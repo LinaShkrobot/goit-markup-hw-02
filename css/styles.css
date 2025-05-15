@@ -65,6 +65,7 @@ ul {
 }
 
 .hero-btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -72,9 +73,11 @@ ul {
   color: #fff;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
+  cursor: pointer;
 }
 
-.hero-btn:hover {
+.hero-btn:hover,
+.hero-btn:focus {
   background: #404bbf;
 }
 
@@ -97,6 +100,15 @@ ul {
   color: #434455;
 }
 
+.team-page {
+  background: #f4f4fd;
+}
+
+.team-item {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
+}
 .team-title {
   font-size: 36px;
   line-height: 1.11;
@@ -104,6 +116,7 @@ ul {
   text-align: center;
   color: #2e2f42;
   background: #f4f4fd;
+  text-transform: capitalize;
 }
 
 .team-item-title {
@@ -129,6 +142,7 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .portfolio-item-title {
